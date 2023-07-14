@@ -1,4 +1,4 @@
-function(myproject_check_libfuzzer_support var_name)
+function(cmake_scratch_check_libfuzzer_support var_name)
   set(LibFuzzerTestSource
       "
 #include <cstdint>
